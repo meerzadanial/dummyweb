@@ -1,0 +1,13 @@
+*{
+    position: absolute;
+    overflow-y: hidden;
+}
+.c-item{
+    height: 50%;
+}
+
+.c-img{
+    height: 50px;
+    object-fit: cover;
+    filter:brightness(0.6);
+}

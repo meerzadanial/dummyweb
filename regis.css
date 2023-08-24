@@ -1,0 +1,79 @@
+*{
+    padding: 2px;
+    margin: 5px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: Large;
+}
+
+body{
+    background-color: #212523;
+}
+
+form{
+    background-color: (27,31,34);
+    width: 640px;
+    margin: 68px auto;
+    max-width: 97%;
+    border-radius: 4px;
+    padding: 55px, 30px;
+    border: 1px solid white;
+    text-transform: uppercase;
+    font-size: large;
+    text-align: center;
+}
+
+button{
+    background: #000;
+    color: white;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+form .half{
+    display: flex;
+    justify-content: space-between;
+}
+
+form .half .item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 24px;
+    width: 48%;
+}
+
+form label{
+    display: block;
+    font-size: 13px;
+    letter-spacing: 3px;
+    margin-bottom: 16px;
+}
+
+form .item input{
+    border-radius: 4px;
+    border: 1px solid white;
+    outline: 0;
+    padding: 16px;
+    background: transparent;
+
+}
+
+form .item select{
+    border-radius: 4px;
+    border: 1px solid white;
+    outline: 0;
+    padding: 16px;
+    background: transparent;
+
+}
+
+.backmainpage{
+    background:transparent;
+    color: white;
+    margin-left: 1750px;
+   
+    
+}
+

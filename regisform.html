@@ -1,0 +1,71 @@
+<!DOCTYPE html> 
+<html>
+
+<head>   
+        <div class="title">
+            <title>Registration Form</title>
+        </div>
+            <link rel="stylesheet" href="regis.css">
+            <meta charset = "utf-8">
+</head>
+
+    <body>
+
+    <div class="form">
+        
+            <form action="refreshregispage.php" method="post" autocomplete="off">
+                <div class="half">
+                    <div class="item">
+                        <label for="name">Name: </label>
+                        <input type ="text" name="name" id="name" required value="">
+                    </div>
+
+                    <div class="item">
+                        <label for="age">Age: </label>
+                        <input type ="text" name="age" id="age" required value="">
+                    </div>
+                </div>
+
+                    <div class="half">
+                        <div class="item">
+                            <label for="phone">Phone Num: </label>
+                            <input type="text" name="mobilenum" id="phone" required value="">
+                        </div>
+                    
+                        <div class="item">
+
+                            <label for="gender">Gender:</label>
+                                <select id="gender" name="gender">
+                                    <option value="male">Male</option>
+                                    <option value="female">Female</option>          
+                                </select>
+                        </div>
+                    </div>
+
+                    <div class="half">
+                        <div class="item">  
+                            <label for="address">Email Address: </label>
+                            <input type ="email" name="email" id="mail" required value="">
+                        </div>
+                            
+                        <div class="item">
+                            <label for="password">Password: </label>
+                            <input type ="password" name="password" id="password" required value="">
+                        </div>    
+                    </div>
+                    
+                        <div class="item">
+                            <label for="confirmpass">Reconfirm Password: </label>
+                            <input type ="password" name="confirmpass" id="passReconfirm" required value="">
+                        </div>
+                    
+                <button type ="submit" name="submit">Register</button>              
+            </form>
+    </div>
+    
+                <div class="backmainpage">       
+                    <a href="index.html">
+                        <button>Main Menu</button>
+                    </a>              
+                 </div>
+    </body>
